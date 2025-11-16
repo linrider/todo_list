@@ -1,4 +1,8 @@
-from my_package.utils import greet
-
+from my_package.TodoList import TodoList
+from my_package.Task import Task
+ 
+def main():
+    todo_list = TodoList()
+    
 if __name__ == "__main__":
-    print(greet("World"))
+    main()
