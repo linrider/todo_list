@@ -1,4 +1,4 @@
-from my_package.Task import Task
+from todo_list.Task import Task
 
 
 class TodoList:
